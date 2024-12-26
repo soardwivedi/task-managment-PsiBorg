@@ -4,16 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "5.1.1",
+    "bcryptjs": "2.4.3",
+    "celebrate": "15.0.3",
     "cors": "2.8.5",
     "express": "4.21.2",
+    "helmet": "8.0.0",
+    "joi": "17.13.3",
     "jsonwebtoken": "9.0.2",
-    "mongoose": "8.9.2"
+    "mongoose": "8.9.2",
+    "rate-limiter-flexible": "5.0.4",
+    "redis": "4.7.0",
+    "socket.io": "4.8.1",
+    "swagger-jsdoc": "6.2.8",
+    "swagger-ui-express": "5.0.1"
   },
   "devDependencies": {
     "dotenv": "16.4.7",

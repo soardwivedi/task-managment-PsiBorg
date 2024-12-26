@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
-// const { errors } = require('celebrate');
-const authRoutes = require('./routes/users');
+const { errors } = require('celebrate');
+const authRoutes = require('./routes/authRoute');
 require('dotenv').config();
 
 dotenv.config();
